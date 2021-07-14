@@ -3,6 +3,7 @@ theme: jekyll-theme-minimal
 logo: ./gxf-big.png
 title: Grid eXchange Fabric (GXF)
 description: Grid eXchange Fabric was formerly known as the Open Smart Grid Platform (OSGP). GXF is an open, generic, scalable and independent 'Internet of Things' platform, which enables various connected smart objects in the public space to be easily controlled and monitored. Our platform allows the use of any (web)application and with any IP communication infrastructure.
+markdown: kramdown
 include: 
   - INDEX.md
 site.github.is_user_page: false
