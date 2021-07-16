@@ -1,0 +1,3321 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>Management | Grid eXchange Fabric Documentation</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.0.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../../../Domains/Smartmetering/smartmeteringwebservices/FindEvents.html" />
+    
+    
+    <link rel="prev" href="../../../Domains/Smartmetering/smartmeteringwebservices/GetDeCoupleMbusDeviceResponse.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-edit-link/plugin.css">
+        
+    
+    
+
+        
+    <div class="book" data-level="4.6.1.8" data-basepath="../../.." data-revision="Thu Jul 15 2021 13:33:14 GMT+0000 (UTC)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+            
+            <li>
+                <a href="https://documentation.gxf.lfenergy.org/osgp-documentation.pdf" target="blank" class="custom-link">Download as PDF</a>
+            </li>
+        
+        
+
+        
+        <li class="divider"></li>
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="Architecture/index.html">
+            
+                
+                    <a href="../../../Architecture/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        General platform architecture
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="Architecture/OSGPProperties.html">
+            
+                
+                    <a href="../../../Architecture/OSGPProperties.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Platform properties
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Architecture/Architecture-introduction.html">
+            
+                
+                    <a href="../../../Architecture/Architecture-introduction.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Architecture introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Architecture/Functionallayersoverview.html">
+            
+                
+                    <a href="../../../Architecture/Functionallayersoverview.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Architecture functional layers
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Architecture/Architecture-Principles.html">
+            
+                
+                    <a href="../../../Architecture/Architecture-Principles.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Architecture Principles
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Architecture/Platform-components-description.html">
+            
+                
+                    <a href="../../../Architecture/Platform-components-description.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Platform components description
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Architecture/Messageflow.html">
+            
+                
+                    <a href="../../../Architecture/Messageflow.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        Message flow examples
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Architecture/Logical-Authorisation-Model.html">
+            
+                
+                    <a href="../../../Architecture/Logical-Authorisation-Model.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        Logical Authorisation Model
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Architecture/Non-functional-overview.html">
+            
+                
+                    <a href="../../../Architecture/Non-functional-overview.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        Non-functional overview
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="Architecture/TimeBehavior.html">
+            
+                
+                    <a href="../../../Architecture/TimeBehavior.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.1.</b>
+                        
+                        TimeBehavior
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="Architecture/Internationalizationlocalization.html">
+            
+                
+                    <a href="../../../Architecture/Internationalizationlocalization.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.2.</b>
+                        
+                        Internationalization and localization
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="Architecture/security.html">
+            
+                
+                    <a href="../../../Architecture/security.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.3.</b>
+                        
+                        Security
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="Architecture/Scalability.html">
+            
+                
+                    <a href="../../../Architecture/Scalability.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.4.</b>
+                        
+                        Scalability
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="Architecture/Redundancy.html">
+            
+                
+                    <a href="../../../Architecture/Redundancy.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.5.</b>
+                        
+                        Redundancy
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="Architecture/Performance.html">
+            
+                
+                    <a href="../../../Architecture/Performance.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.6.</b>
+                        
+                        Performance
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Architecture/Technical-overview/TechnicalOverview.html">
+            
+                
+                    <a href="../../../Architecture/Technical-overview/TechnicalOverview.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        Technical Overview
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="Architecture/Technical-overview/WebServicesLayer.html">
+            
+                
+                    <a href="../../../Architecture/Technical-overview/WebServicesLayer.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.1.</b>
+                        
+                        Web Services Layer
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="Architecture/Technical-overview/DomainLayer.html">
+            
+                
+                    <a href="../../../Architecture/Technical-overview/DomainLayer.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.2.</b>
+                        
+                        Domain Layer
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="Architecture/Technical-overview/CoreLayer.html">
+            
+                
+                    <a href="../../../Architecture/Technical-overview/CoreLayer.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.3.</b>
+                        
+                        Core Layer
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="Architecture/Technical-overview/ProtocolLayer.html">
+            
+                
+                    <a href="../../../Architecture/Technical-overview/ProtocolLayer.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.4.</b>
+                        
+                        Protocol Layer
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="Architecture/Technical-overview/Technologystack.html">
+            
+                
+                    <a href="../../../Architecture/Technical-overview/Technologystack.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.5.</b>
+                        
+                        Technology Stack
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Architecture/Use-cases.html">
+            
+                
+                    <a href="../../../Architecture/Use-cases.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.</b>
+                        
+                        Use cases
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="Userguide/index.html">
+            
+                
+                    <a href="../../../Userguide/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        General User&#39;s Guide
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="Userguide/Installation/Installationguide.html">
+            
+                
+                    <a href="../../../Userguide/Installation/Installationguide.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Installation Guide
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="Userguide/Installation/installation.html">
+            
+                
+                    <a href="../../../Userguide/Installation/installation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.</b>
+                        
+                        Installation
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.1" data-path="Userguide/Installation/Setup-VM-Vagrant.html">
+            
+                
+                    <a href="../../../Userguide/Installation/Setup-VM-Vagrant.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.1.</b>
+                        
+                        Vagrant
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="Userguide/Installation/manualInstallation.html">
+            
+                
+                    <a href="../../../Userguide/Installation/manualInstallation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.2.</b>
+                        
+                        Manual Setup
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="Userguide/Installation/setupGitHub.html">
+            
+                
+                    <a href="../../../Userguide/Installation/setupGitHub.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.</b>
+                        
+                        GitHub configuration
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="Userguide/Installation/setupOSGP.html">
+            
+                
+                    <a href="../../../Userguide/Installation/setupOSGP.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.3.</b>
+                        
+                        Platform Setup
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="Userguide/Installation/request.html">
+            
+                
+                    <a href="../../../Userguide/Installation/request.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.4.</b>
+                        
+                        Test the Platform
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.4.1" data-path="Userguide/Installation/testOSGP.html">
+            
+                
+                    <a href="../../../Userguide/Installation/testOSGP.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.4.1.</b>
+                        
+                        Using SoapUi
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.2" data-path="Userguide/Installation/TestOsgpDemoApp.html">
+            
+                
+                    <a href="../../../Userguide/Installation/TestOsgpDemoApp.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.4.2.</b>
+                        
+                        Using the Demo App
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="Userguide/Configuration.html">
+            
+                
+                    <a href="../../../Userguide/Configuration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Configuration
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="Userguide/Addadevice.html">
+            
+                
+                    <a href="../../../Userguide/Addadevice.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.1.</b>
+                        
+                        Add a device
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="Userguide/Users.html">
+            
+                
+                    <a href="../../../Userguide/Users.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.</b>
+                        
+                        Users
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="Userguide/addOrganisation.html">
+            
+                
+                    <a href="../../../Userguide/addOrganisation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.3.</b>
+                        
+                        Add a new organisation
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="Userguide/GuideToWebServices.html">
+            
+                
+                    <a href="../../../Userguide/GuideToWebServices.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Web Services
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="Userguide/Deployment.html">
+            
+                
+                    <a href="../../../Userguide/Deployment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Deployment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="Userguide/FAQ.html">
+            
+                
+                    <a href="../../../Userguide/FAQ.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        FAQ
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Opensourcecommunity/index.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Open Source Community
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="Opensourcecommunity/Getstarted.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/Getstarted.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Start contributing
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="Opensourcecommunity/ToolsguidelinesCI.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/ToolsguidelinesCI.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Developers 101
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="Opensourcecommunity/Contributing-to-the-code.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/Contributing-to-the-code.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Contributing to the code
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="Opensourcecommunity/Contributing-to-documentation.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/Contributing-to-documentation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Contributing to documentation
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="Opensourcecommunity/Communication-and-contact.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/Communication-and-contact.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Communication and Contact
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="Opensourcecommunity/Governance.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/Governance.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        Governance
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="Opensourcecommunity/Code-of-conduct.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/Code-of-conduct.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                        Code of Conduct
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="Opensourcecommunity/Foundation.html">
+            
+                
+                    <a href="../../../Opensourcecommunity/Foundation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.</b>
+                        
+                        Foundation
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="Domains/index.html">
+            
+                
+                    <a href="../../../Domains/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Domains
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="Domains/Admin/index.html">
+            
+                
+                    <a href="../../../Domains/Admin/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Admin
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="Domains/Smartlighting/index.html">
+            
+                
+                    <a href="../../../Domains/Smartlighting/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Smart lighting
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="Domains/Smartlighting/Smartlighting-use-cases.html">
+            
+                
+                    <a href="../../../Domains/Smartlighting/Smartlighting-use-cases.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.1.</b>
+                        
+                        Use cases
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="Domains/Smartlighting/LightSchedules.html">
+            
+                
+                    <a href="../../../Domains/Smartlighting/LightSchedules.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.2.</b>
+                        
+                        Light Schedules
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="Domains/Tariffswitching/index.html">
+            
+                
+                    <a href="../../../Domains/Tariffswitching/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Tariff switching
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="Domains/Microgrids/index.html">
+            
+                
+                    <a href="../../../Domains/Microgrids/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        Microgrids
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="Domains/DistributionAutomation/index.html">
+            
+                
+                    <a href="../../../Domains/DistributionAutomation/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        Distribution automation
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="Domains/Smartmetering/index.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                        SmartMetering
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1" data-path="Domains/Smartmetering/smartmeteringwebservices/SmartMeteringWs.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SmartMeteringWs.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.</b>
+                        
+                        Web Services
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1.1" data-path="Domains/Smartmetering/smartmeteringwebservices/bypassretry.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/bypassretry.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.1.</b>
+                        
+                        bypass retry
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.2" data-path="Domains/Smartmetering/smartmeteringwebservices/priority.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/priority.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.2.</b>
+                        
+                        priority
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.3" data-path="Domains/Smartmetering/smartmeteringwebservices/scheduling.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/scheduling.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.3.</b>
+                        
+                        scheduling
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.4" data-path="Domains/Smartmetering/smartmeteringwebservices/AdHocManagement.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/AdHocManagement.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.4.</b>
+                        
+                        AdHocManagement
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1.4.1" data-path="Domains/Smartmetering/smartmeteringwebservices/GetAssociationLnObjects.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetAssociationLnObjects.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.4.1.</b>
+                        
+                        GetAssociationLnObjects
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.4.2" data-path="Domains/Smartmetering/smartmeteringwebservices/GetGetAssociationLnObjectsResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetGetAssociationLnObjectsResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.4.2.</b>
+                        
+                        GetGetAssociationLnObjectsResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.4.3" data-path="Domains/Smartmetering/smartmeteringwebservices/RetrieveConfigurationObjects.html">
+            
+            <span><b>4.6.1.4.3.</b> RetrieveConfigurationObjects</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.4.4" data-path="Domains/Smartmetering/smartmeteringwebservices/GetRetrieveConfigurationObjectsResponse.html">
+            
+            <span><b>4.6.1.4.4.</b> GetRetrieveConfigurationObjectsResponse</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.4.5" data-path="Domains/Smartmetering/smartmeteringwebservices/SpecificConfigurationObject.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SpecificConfigurationObject.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.4.5.</b>
+                        
+                        SpecificConfigurationObject
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.4.6" data-path="Domains/Smartmetering/smartmeteringwebservices/SynchronizeTime.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SynchronizeTime.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.4.6.</b>
+                        
+                        SynchronizeTime
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.4.7" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSynchronizeTimeResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSynchronizeTimeResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.4.7.</b>
+                        
+                        GetSynchronizeTimeResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.5" data-path="Domains/Smartmetering/smartmeteringwebservices/bundling.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/bundling.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.5.</b>
+                        
+                        Bundle
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1.5.1" data-path="Domains/Smartmetering/smartmeteringwebservices/Bundle.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/Bundle.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.5.1.</b>
+                        
+                        Bundle
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.5.2" data-path="Domains/Smartmetering/smartmeteringwebservices/GetBundleResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetBundleResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.5.2.</b>
+                        
+                        GetBundleResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6" data-path="Domains/Smartmetering/smartmeteringwebservices/Configuration.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/Configuration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.</b>
+                        
+                        Configuration
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1.6.1" data-path="Domains/Smartmetering/smartmeteringwebservices/GetAdministrativeStatus.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetAdministrativeStatus.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.1.</b>
+                        
+                        GetAdministrativeStatus
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.2" data-path="Domains/Smartmetering/smartmeteringwebservices/GetGetAdministrativeStatusResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetGetAdministrativeStatusResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.2.</b>
+                        
+                        GetGetAdministrativeStatusResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.3" data-path="Domains/Smartmetering/smartmeteringwebservices/GetFirmwareVersion.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetFirmwareVersion.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.3.</b>
+                        
+                        GetFirmwareVersion
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.4" data-path="Domains/Smartmetering/smartmeteringwebservices/GetGetFirmwareVersionResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetGetFirmwareVersionResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.4.</b>
+                        
+                        GetGetFirmwareVersionResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.5" data-path="Domains/Smartmetering/smartmeteringwebservices/UpdateFirmware.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/UpdateFirmware.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.5.</b>
+                        
+                        UpdateFirmware
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.6" data-path="Domains/Smartmetering/smartmeteringwebservices/GetUpdateFirmwareResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetUpdateFirmwareResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.6.</b>
+                        
+                        GetUpdateFirmwareResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.7" data-path="Domains/Smartmetering/smartmeteringwebservices/ReplaceKeys.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/ReplaceKeys.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.7.</b>
+                        
+                        ReplaceKeys
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.8" data-path="Domains/Smartmetering/smartmeteringwebservices/GetReplaceKeysResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetReplaceKeysResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.8.</b>
+                        
+                        GetReplaceKeysResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.9" data-path="Domains/Smartmetering/smartmeteringwebservices/GetKeys.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetKeys.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.9.</b>
+                        
+                        GetKeys
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.10" data-path="Domains/Smartmetering/smartmeteringwebservices/SetActivityCalendar.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetActivityCalendar.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.10.</b>
+                        
+                        SetActivityCalendar
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.11" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetActivityCalendarResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetActivityCalendarResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.11.</b>
+                        
+                        GetSetActivityCalendarResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.12" data-path="Domains/Smartmetering/smartmeteringwebservices/SetAdministrativeStatus.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetAdministrativeStatus.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.12.</b>
+                        
+                        SetAdministrativeStatus
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.13" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetAdministrativeStatusResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetAdministrativeStatusResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.13.</b>
+                        
+                        GetSetAdministrativeStatusResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.14" data-path="Domains/Smartmetering/smartmeteringwebservices/SetAlarmNotifications.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetAlarmNotifications.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.14.</b>
+                        
+                        SetAlarmNotifications
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.15" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetAlarmNotificationsResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetAlarmNotificationsResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.15.</b>
+                        
+                        GetSetAlarmNotificationsResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.16" data-path="Domains/Smartmetering/smartmeteringwebservices/SetConfigurationObject.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetConfigurationObject.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.16.</b>
+                        
+                        SetConfigurationObject
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.17" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetConfigurationObjectResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetConfigurationObjectResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.17.</b>
+                        
+                        GetSetConfigurationObjectResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.18" data-path="Domains/Smartmetering/smartmeteringwebservices/SetEncryptionKeyExchangeOnGMeter.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetEncryptionKeyExchangeOnGMeter.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.18.</b>
+                        
+                        SetEncryptionKeyExchangeOnGMeter
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.19" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetEncryptionKeyExchangeOnGMeterResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetEncryptionKeyExchangeOnGMeterResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.19.</b>
+                        
+                        GetSetEncryptionKeyExchangeOnGMeterResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.20" data-path="Domains/Smartmetering/smartmeteringwebservices/SetPushSetupAlarm.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetPushSetupAlarm.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.20.</b>
+                        
+                        SetPushSetupAlarm
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.21" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetPushSetupAlarmResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetPushSetupAlarmResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.21.</b>
+                        
+                        GetSetPushSetupAlarmResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.22" data-path="Domains/Smartmetering/smartmeteringwebservices/SetPushSetupSms.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetPushSetupSms.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.22.</b>
+                        
+                        SetPushSetupSms
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.23" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetPushSetupSmsResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetPushSetupSmsResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.23.</b>
+                        
+                        GetSetPushSetupSmsResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.24" data-path="Domains/Smartmetering/smartmeteringwebservices/SetSpecialDays.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetSpecialDays.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.24.</b>
+                        
+                        SetSpecialDays
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.25" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetSpecialDaysResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetSpecialDaysResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.25.</b>
+                        
+                        GetSetSpecialDaysResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.26" data-path="Domains/Smartmetering/smartmeteringwebservices/GetConfigurationObject.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetConfigurationObject.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.26.</b>
+                        
+                        GetConfigurationObject
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.27" data-path="Domains/Smartmetering/smartmeteringwebservices/GetConfigurationObjectResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetConfigurationObjectResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.27.</b>
+                        
+                        GetConfigurationObjectResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.28" data-path="Domains/Smartmetering/smartmeteringwebservices/ConfigureDefinableLoadProfile.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/ConfigureDefinableLoadProfile.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.28.</b>
+                        
+                        ConfigureDefinableLoadProfile
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.29" data-path="Domains/Smartmetering/smartmeteringwebservices/GetConfigureDefinableLoadProfileResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetConfigureDefinableLoadProfileResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.29.</b>
+                        
+                        GetConfigureDefinableLoadProfileResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.30" data-path="Domains/Smartmetering/smartmeteringwebservices/SetMbusUserKeyByChannel.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetMbusUserKeyByChannel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.30.</b>
+                        
+                        SetMbusUserKeyByChannel
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.31" data-path="Domains/Smartmetering/smartmeteringwebservices/GetSetMbusUserKeyByChannelResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetSetMbusUserKeyByChannelResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.31.</b>
+                        
+                        GetSetMbusUserKeyByChannelResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.32" data-path="Domains/Smartmetering/smartmeteringwebservices/GetMbusEncryptionKeyStatus.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetMbusEncryptionKeyStatus.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.32.</b>
+                        
+                        GetMbusEncryptionKeyStatus
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.33" data-path="Domains/Smartmetering/smartmeteringwebservices/GetGetMbusEncryptionKeyStatusResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetGetMbusEncryptionKeyStatusResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.33.</b>
+                        
+                        GetGetMbusEncryptionKeyStatusResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.34" data-path="Domains/Smartmetering/smartmeteringwebservices/GetMbusEncryptionKeyStatusByChannel.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetMbusEncryptionKeyStatusByChannel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.34.</b>
+                        
+                        GetMbusEncryptionKeyStatusByChannel
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.35" data-path="Domains/Smartmetering/smartmeteringwebservices/GetGetMbusEncryptionKeyStatusByChannelResponse.html">
+            
+            <span><b>4.6.1.6.35.</b> GetGetMbusEncryptionKeyStatusByChannelResponse</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.36" data-path="Domains/Smartmetering/smartmeteringwebservices/ScanMbusChannels.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/ScanMbusChannels.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.36.</b>
+                        
+                        ScanMbusChannels
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.6.37" data-path="Domains/Smartmetering/smartmeteringwebservices/ScanMbusChannelsResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/ScanMbusChannelsResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.6.37.</b>
+                        
+                        ScanMbusChannelsResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.7" data-path="Domains/Smartmetering/smartmeteringwebservices/Installation.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/Installation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.7.</b>
+                        
+                        Installation
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1.7.1" data-path="Domains/Smartmetering/smartmeteringwebservices/AddDevice.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/AddDevice.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.7.1.</b>
+                        
+                        AddDevice
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.7.2" data-path="Domains/Smartmetering/smartmeteringwebservices/GetAddDeviceResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetAddDeviceResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.7.2.</b>
+                        
+                        GetAddDeviceResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.7.3" data-path="Domains/Smartmetering/smartmeteringwebservices/CoupleMbusDevice.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/CoupleMbusDevice.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.7.3.</b>
+                        
+                        CoupleMbusDevice
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.7.4" data-path="Domains/Smartmetering/smartmeteringwebservices/GetCoupleMbusDeviceResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetCoupleMbusDeviceResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.7.4.</b>
+                        
+                        GetCoupleMbusDeviceResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.7.5" data-path="Domains/Smartmetering/smartmeteringwebservices/DeCoupleMbusDevice.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/DeCoupleMbusDevice.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.7.5.</b>
+                        
+                        DeCoupleMbusDevice
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.7.6" data-path="Domains/Smartmetering/smartmeteringwebservices/GetDeCoupleMbusDeviceResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetDeCoupleMbusDeviceResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.7.6.</b>
+                        
+                        GetDeCoupleMbusDeviceResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.6.1.8" data-path="Domains/Smartmetering/smartmeteringwebservices/Management.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/Management.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.</b>
+                        
+                        Management
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1.8.1" data-path="Domains/Smartmetering/smartmeteringwebservices/FindEvents.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/FindEvents.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.1.</b>
+                        
+                        FindEvents
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.8.2" data-path="Domains/Smartmetering/smartmeteringwebservices/GetFindEventsResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetFindEventsResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.2.</b>
+                        
+                        GetFindEventsResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.8.3" data-path="Domains/Smartmetering/smartmeteringwebservices/GetDevices.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetDevices.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.3.</b>
+                        
+                        GetDevices
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.8.4" data-path="Domains/Smartmetering/smartmeteringwebservices/SetDeviceLifecycleStatusByChannel.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetDeviceLifecycleStatusByChannel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.4.</b>
+                        
+                        SetDeviceLifecycleStatusByChannel
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.8.5" data-path="Domains/Smartmetering/smartmeteringwebservices/SetDeviceLifecycleStatusByChannelResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SetDeviceLifecycleStatusByChannelResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.5.</b>
+                        
+                        SetDeviceLifecycleStatusByChannelResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.8.6" data-path="Domains/Smartmetering/smartmeteringwebservices/EnableDebugging.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/EnableDebugging.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.6.</b>
+                        
+                        EnableDebugging
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.8.7" data-path="Domains/Smartmetering/smartmeteringwebservices/DisableDebugging.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/DisableDebugging.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.7.</b>
+                        
+                        DisableDebugging
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.8.8" data-path="Domains/Smartmetering/smartmeteringwebservices/FindMessageLogs.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/FindMessageLogs.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.8.</b>
+                        
+                        FindMessageLogs
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.8.9" data-path="Domains/Smartmetering/smartmeteringwebservices/GetGsmDiagnostic.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetGsmDiagnostic.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.8.9.</b>
+                        
+                        GetGsmDiagnostic
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9" data-path="Domains/Smartmetering/smartmeteringwebservices/Monitoring.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/Monitoring.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.</b>
+                        
+                        Monitoring
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1.9.1" data-path="Domains/Smartmetering/smartmeteringwebservices/GetActualMeterReads.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetActualMeterReads.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.1.</b>
+                        
+                        GetActualMeterReads
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.2" data-path="Domains/Smartmetering/smartmeteringwebservices/GetActualMeterReadsResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetActualMeterReadsResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.2.</b>
+                        
+                        GetActualMeterReadsResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.3" data-path="Domains/Smartmetering/smartmeteringwebservices/GetActualMeterReadsGas.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetActualMeterReadsGas.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.3.</b>
+                        
+                        GetActualMeterReadsGas
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.4" data-path="Domains/Smartmetering/smartmeteringwebservices/GetActualMeterReadsGasResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetActualMeterReadsGasResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.4.</b>
+                        
+                        GetActualMeterReadsGasResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.5" data-path="Domains/Smartmetering/smartmeteringwebservices/GetPeriodicMeterReads.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetPeriodicMeterReads.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.5.</b>
+                        
+                        GetPeriodicMeterReads
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.6" data-path="Domains/Smartmetering/smartmeteringwebservices/GetPeriodicMeterReadsResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetPeriodicMeterReadsResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.6.</b>
+                        
+                        GetPeriodicMeterReadsResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.7" data-path="Domains/Smartmetering/smartmeteringwebservices/GetPeriodicMeterReadsGas.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetPeriodicMeterReadsGas.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.7.</b>
+                        
+                        GetPeriodicMeterReadsGas
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.8" data-path="Domains/Smartmetering/smartmeteringwebservices/GetPeriodicMeterReadsGasResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetPeriodicMeterReadsGasResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.8.</b>
+                        
+                        GetPeriodicMeterReadsGasResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.9" data-path="Domains/Smartmetering/smartmeteringwebservices/GetProfileGenericData.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetProfileGenericData.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.9.</b>
+                        
+                        GetProfileGenericData
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.10" data-path="Domains/Smartmetering/smartmeteringwebservices/GetProfileGenericDataResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetProfileGenericDataResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.10.</b>
+                        
+                        GetProfileGenericDataResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.11" data-path="Domains/Smartmetering/smartmeteringwebservices/ReadAlarmRegister.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/ReadAlarmRegister.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.11.</b>
+                        
+                        ReadAlarmRegister
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.12" data-path="Domains/Smartmetering/smartmeteringwebservices/GetReadAlarmRegisterResponse.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetReadAlarmRegisterResponse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.12.</b>
+                        
+                        GetReadAlarmRegisterResponse
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.9.13" data-path="Domains/Smartmetering/smartmeteringwebservices/RetrievePushNotificationAlarm.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/RetrievePushNotificationAlarm.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.9.13.</b>
+                        
+                        RetrievePushNotificationAlarm
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.1.10" data-path="Domains/Smartmetering/smartmeteringwebservices/Notifications.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/Notifications.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.10.</b>
+                        
+                        Notification
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1.10.1" data-path="Domains/Smartmetering/smartmeteringwebservices/SendNotification.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/SendNotification.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.10.1.</b>
+                        
+                        SendNotification
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.2" data-path="Domains/Smartmetering/smartmeteringwebservices/ResponseMessages.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/smartmeteringwebservices/ResponseMessages.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.2.</b>
+                        
+                        ResponseMessages
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.3" data-path="Domains/Smartmetering/Smartmetering-use-cases.html">
+            
+                
+                    <a href="../../../Domains/Smartmetering/Smartmetering-use-cases.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.3.</b>
+                        
+                        Use cases
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="Domains/createNewDomain.html">
+            
+                
+                    <a href="../../../Domains/createNewDomain.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                        Guidelines to add a new domain to GXF
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="Protocols/index.html">
+            
+                
+                    <a href="../../../Protocols/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Protocols
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="Protocols/IEC61850/index.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        IEC61850
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="Protocols/IEC61850/SWDevice-010805.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.</b>
+                        
+                        SWDevice-010805
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.1" data-path="Protocols/IEC61850/SWDevice-010805/SWDevice-010805.icd.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/SWDevice-010805.icd.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.1.</b>
+                        
+                        SWDevice-010805.icd
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.2" data-path="Protocols/IEC61850/SWDevice-010805/RegisterDevice.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/RegisterDevice.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.2.</b>
+                        
+                        RegisterDevice
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3" data-path="Protocols/IEC61850/SWDevice-010805/GetConfiguration.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/GetConfiguration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.3.</b>
+                        
+                        GetConfiguration
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.4" data-path="Protocols/IEC61850/SWDevice-010805/SetConfiguration.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/SetConfiguration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.4.</b>
+                        
+                        SetConfiguration
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.5" data-path="Protocols/IEC61850/SWDevice-010805/SetEventNotifications.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/SetEventNotifications.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.5.</b>
+                        
+                        SetEventNotifications
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.6" data-path="Protocols/IEC61850/SWDevice-010805/EventNotification.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/EventNotification.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.6.</b>
+                        
+                        EventNotification
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.7" data-path="Protocols/IEC61850/SWDevice-010805/SetSchedule.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/SetSchedule.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.7.</b>
+                        
+                        SetSchedule
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.8" data-path="Protocols/IEC61850/SWDevice-010805/GetFirmwareVersion.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/GetFirmwareVersion.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.8.</b>
+                        
+                        GetFirmwareVersion
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.9" data-path="Protocols/IEC61850/SWDevice-010805/UpdateFirmware.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/UpdateFirmware.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.9.</b>
+                        
+                        UpdateFirmware
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.10" data-path="Protocols/IEC61850/SWDevice-010805/SetReboot.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/SetReboot.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.10.</b>
+                        
+                        SetReboot
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.11" data-path="Protocols/IEC61850/SWDevice-010805/StartSelfTest.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/StartSelfTest.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.11.</b>
+                        
+                        StartSelfTest
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.12" data-path="Protocols/IEC61850/SWDevice-010805/StopSelfTest.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/StopSelfTest.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.12.</b>
+                        
+                        StopSelfTest
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.13" data-path="Protocols/IEC61850/SWDevice-010805/SetLight.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/SetLight.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.13.</b>
+                        
+                        SetLight
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.14" data-path="Protocols/IEC61850/SWDevice-010805/SetTransition.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/SetTransition.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.14.</b>
+                        
+                        SetTransition
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.15" data-path="Protocols/IEC61850/SWDevice-010805/GetStatus.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/GetStatus.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.15.</b>
+                        
+                        GetStatus
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.16" data-path="Protocols/IEC61850/SWDevice-010805/UpdateDeviceSslCertification.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/SWDevice-010805/UpdateDeviceSslCertification.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.16.</b>
+                        
+                        UpdateDeviceSslCertification
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="Protocols/IEC61850/FlexOVL_540_171101_2.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/FlexOVL_540_171101_2.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.2.</b>
+                        
+                        FlexOVL_540_171101_2
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.1" data-path="Protocols/IEC61850/FlexOVL_540_171101_2/FlexOVL_540_171101_2_out.icd.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/FlexOVL_540_171101_2/FlexOVL_540_171101_2_out.icd.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.2.1.</b>
+                        
+                        FlexOVL_540_171101_2_out.icd
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2" data-path="Protocols/IEC61850/FlexOVL_540_171101_2/GetStatus.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/FlexOVL_540_171101_2/GetStatus.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.2.2.</b>
+                        
+                        GetStatus
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.3" data-path="Protocols/IEC61850/FlexOVL_540_171101_2/EventNotification.html">
+            
+                
+                    <a href="../../../Protocols/IEC61850/FlexOVL_540_171101_2/EventNotification.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.2.3.</b>
+                        
+                        EventNotification
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="Protocols/DLMS/index.html">
+            
+                
+                    <a href="../../../Protocols/DLMS/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        DLMS / COSEM
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="Protocols/DLMS/Devicesimulator.html">
+            
+                
+                    <a href="../../../Protocols/DLMS/Devicesimulator.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.1.</b>
+                        
+                        DLMS device simulator
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="Protocols/OSLP/index.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        OSLP
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.1" data-path="Protocols/OSLP/oslp-v0.5.1.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/oslp-v0.5.1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.1.</b>
+                        
+                        OSLP v0.5.1
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.1.1" data-path="Protocols/OSLP/v0.5.1/oslp.proto.v0.5.1.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.5.1/oslp.proto.v0.5.1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.1.1.</b>
+                        
+                        Protobuf Contract
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2" data-path="Protocols/OSLP/oslp-v0.6.1.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/oslp-v0.6.1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.</b>
+                        
+                        OSLP v0.6.1
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.2.1" data-path="Protocols/OSLP/v0.6.1/oslp.proto.v0.6.1.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/oslp.proto.v0.6.1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.1.</b>
+                        
+                        Protobuf Contract
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.2" data-path="Protocols/OSLP/v0.6.1/RegisterDevice.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/RegisterDevice.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.2.</b>
+                        
+                        RegisterDevice
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.3" data-path="Protocols/OSLP/v0.6.1/ConfirmRegisterDevice.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/ConfirmRegisterDevice.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.3.</b>
+                        
+                        ConfirmRegisterDevice
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.4" data-path="Protocols/OSLP/v0.6.1/GetConfiguration.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/GetConfiguration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.4.</b>
+                        
+                        GetConfiguration
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.5" data-path="Protocols/OSLP/v0.6.1/SetConfiguration.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SetConfiguration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.5.</b>
+                        
+                        SetConfiguration
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.6" data-path="Protocols/OSLP/v0.6.1/SetEventNotifications.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SetEventNotifications.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.6.</b>
+                        
+                        SetEventNotifications
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.7" data-path="Protocols/OSLP/v0.6.1/EventNotification.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/EventNotification.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.7.</b>
+                        
+                        EventNotification
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.8" data-path="Protocols/OSLP/v0.6.1/SetSchedule.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SetSchedule.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.8.</b>
+                        
+                        SetSchedule
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.9" data-path="Protocols/OSLP/v0.6.1/ResumeSchedule.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/ResumeSchedule.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.9.</b>
+                        
+                        ResumeSchedule
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.10" data-path="Protocols/OSLP/v0.6.1/GetFirmwareVersion.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/GetFirmwareVersion.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.10.</b>
+                        
+                        GetFirmwareVersion
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.11" data-path="Protocols/OSLP/v0.6.1/UpdateFirmware.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/UpdateFirmware.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.11.</b>
+                        
+                        UpdateFirmware
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.12" data-path="Protocols/OSLP/v0.6.1/SetReboot.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SetReboot.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.12.</b>
+                        
+                        SetReboot
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.13" data-path="Protocols/OSLP/v0.6.1/StartSelfTest.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/StartSelfTest.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.13.</b>
+                        
+                        StartSelfTest
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.14" data-path="Protocols/OSLP/v0.6.1/StopSelfTest.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/StopSelfTest.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.14.</b>
+                        
+                        StopSelfTest
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.15" data-path="Protocols/OSLP/v0.6.1/SetLight.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SetLight.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.15.</b>
+                        
+                        SetLight
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.16" data-path="Protocols/OSLP/v0.6.1/SetTransition.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SetTransition.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.16.</b>
+                        
+                        SetTransition
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.17" data-path="Protocols/OSLP/v0.6.1/GetStatus.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/GetStatus.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.17.</b>
+                        
+                        GetStatus
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.18" data-path="Protocols/OSLP/v0.6.1/UpdateDeviceSslCertification.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/UpdateDeviceSslCertification.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.18.</b>
+                        
+                        UpdateDeviceSslCertification
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.19" data-path="Protocols/OSLP/v0.6.1/SetDeviceVerificationKey.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SetDeviceVerificationKey.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.19.</b>
+                        
+                        SetDeviceVerificationKey
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.20" data-path="Protocols/OSLP/v0.6.1/SwitchFirmware.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SwitchFirmware.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.20.</b>
+                        
+                        SwitchFirmware
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2.21" data-path="Protocols/OSLP/v0.6.1/SwitchConfiguration.html">
+            
+                
+                    <a href="../../../Protocols/OSLP/v0.6.1/SwitchConfiguration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.21.</b>
+                        
+                        SwitchConfiguration
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="Protocols/MQTT/index.html">
+            
+                
+                    <a href="../../../Protocols/MQTT/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        MQTT
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="Support/index.html">
+            
+                
+                    <a href="../../../Support/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Support
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="Apache-license/index.html">
+            
+                
+                    <a href="../../../Apache-license/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        License
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <a href="../../../GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+
+    
+    
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../" >Grid eXchange Fabric Documentation</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <a id="edit-link" href="https://github.com/OSGP/Documentation/edit/development/Domains/Smartmetering/smartmeteringwebservices/Management.md" class="btn fa fa-edit pull-left">&nbsp;&nbsp;Fix This Page</a><h2 id="management">Management</h2>
+<p>Describes the actions as defined in <a href="https://github.com/OSGP/open-smart-grid-platform/blob/development/osgp/shared/osgp-ws-smartmetering/src/main/resources/SmartMeteringManagement.wsdl" target="_blank">SmartMeteringManagement.wsdl</a></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../../Domains/Smartmetering/smartmeteringwebservices/GetDeCoupleMbusDeviceResponse.html" class="navigation navigation-prev " aria-label="Previous page: GetDeCoupleMbusDeviceResponse"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../../Domains/Smartmetering/smartmeteringwebservices/FindEvents.html" class="navigation navigation-next " aria-label="Next page: FindEvents"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../../gitbook/app.js"></script>
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-collapsible-menu/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"edit-link":{"base":"https://github.com/OSGP/Documentation/edit/development","label":"Fix This Page"}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
